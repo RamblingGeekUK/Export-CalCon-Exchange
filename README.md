@@ -1,10 +1,8 @@
 # PowerShell
-This is a collection of PowerShell Scripts that I have written to help along the way
-Prerequisites 
-
-•	Requires to be run with a user who is a member of the ImportExport Role (I would of thought an Exchange admin should already have this right) 
-•	New-ManagementRoleAssignment –Role "Mailbox Import Export" –User "user name"
-•	A share on the server 
+This is a collection of PowerShell Scripts that I have written to help along the way prerequisites 
+*	Requires to be run with a user who is a member of the ImportExport Role (I would of thought an Exchange admin should already have this right) 
+*	New-ManagementRoleAssignment –Role "Mailbox Import Export" –User "user name"
+*	A share on the server 
 
 How To Use 
               
