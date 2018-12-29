@@ -1,3 +1,42 @@
+
+<#PSScriptInfo
+
+.VERSION 0.2
+
+.GUID 6de48057-fd1d-4c58-9039-205de13b3f02
+
+.AUTHOR wayne@ramblinggeek.co.uk
+
+.COMPANYNAME 
+
+.COPYRIGHT 
+
+.TAGS 
+
+.LICENSEURI 
+
+.PROJECTURI 
+
+.ICONURI 
+
+.EXTERNALMODULEDEPENDENCIES 
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES 
+
+.RELEASENOTES
+
+
+#>
+
+<# 
+
+.DESCRIPTION 
+ A script to loop through Exchange Mailboxes and export Contacts and Calendars 
+
+#> 
+
 param([string]$SMTPDomain="", [string]$FilePath="", [int]$Max=50) 
 
 #
@@ -22,3 +61,4 @@ foreach ($mailbox in $mailboxes)
 	}
 	$limit++
 }
+
