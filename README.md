@@ -6,7 +6,7 @@ This is a collection of PowerShell Scripts that I have written to help along the
 
 How To Use 
               
-*	Download script from link above
+*	Download script from link above or install from PowerShell Gallery Using "Install-Script -Name Export-CalCon-Exchange"
 *	Open Exchange PowerShell
 *	Check Your Current Execution Policy with “Get-ExecutionPolicy”, make a note of it, it should be site to remote Signed, now run “Set-ExecutionPolicy Unrestricted”
 *	Move to the folder with the script and run the following 

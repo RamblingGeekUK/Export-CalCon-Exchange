@@ -15,7 +15,7 @@
 
 .LICENSEURI 
 
-.PROJECTURI 
+.PROJECTURI https://github.com/RamblingGeekUK/Export-CalCon-Exchange
 
 .ICONURI 
 
@@ -58,7 +58,8 @@ foreach ($mailbox in $mailboxes)
 	else
 	{
 		break
-	}
+    }
+    # increase count
 	$limit++
 }
 
